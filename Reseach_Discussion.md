@@ -1,0 +1,13 @@
+Discussion:
+
+Initially, data cleaning and preprocessing were crucial steps in preparing the dataset for analysis. This ensured the quality and reliability of the data used for subsequent analysis.
+	
+The decision to utilize tuition as the target value for predictive modeling was informed by its integral nature to university finances and its strong correlation with key features such as average SAT score, median household income, and year. Additionally, the investigation into how control type of a university affected tuition rates provided a more nuanced analysis, highlighting potential disparities in tuition-setting practices between different types of institutions.
+	
+The results indicated varying levels of accuracy among the supervised learning models, likely due to the differences in dataset size and specificity.
+	
+In contrast, the application of unsupervised learning produced less definitive results. Despite experimenting with different numbers of clusters, the silhouette scores remained consistently low across models, suggesting limitations in the dataset or the modeling approach.
+	
+Overall, while supervised learning models showed promise in predicting tuition rates based on the selected features, the limitations encountered by our unsupervised learning approach highlights the complexity of analyzing nuanced data and the need for further refinement and exploration.
+	
+In the future, if we were to obtain more data, we would like to investigate models for private for-profit universities and compare them to our current models. We would also like to research other supervised and unsupervised methods and explore how models created with different methods compare to our current models.
